@@ -1,0 +1,89 @@
+
+body {
+	background-color: #ffffed;
+}
+body p {
+	font-family: 'Raleway', sans-serif;
+}
+
+body a {
+	text-decoration: none;
+	color: #3d3d3d;
+}
+
+body a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ec474b;
+	border-bottom: 4px solid #ec474b;
+}
+
+h2 { 
+	font-family:'Pacifico', cursive;
+	color:#ec474b;
+ }
+
+.logo {
+	font-size: 16px;
+	color: #ec474b;
+	font-weight: bold;
+	margin-left: 1em;
+	padding: 1em;
+	font-weight: lighter;
+	
+}
+
+.logo img {
+	width: 170px;
+
+	}
+
+.logo-wrapper {
+	margin-left: 1em;
+}
+
+.navbar-top {
+	text-decoration: none;
+	margin-top: 1.5em;
+	margin-right: 1em;
+	font-size: 16px;
+	font-weight: lighter;
+	font-family: 'Raleway', sans-serif;
+
+}
+.navbar-top li {
+	display: inline;
+	padding: 0.5em;
+	color: #000;
+}
+
+.page-content-wrapper {
+	margin-top: 3em;
+	margin-right: 2em;
+	margin-left: 2em;
+	padding: 4em;
+	background-color: #fff;
+	  -moz-box-shadow:    3px 3px 5px 4px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 4px #ccc;
+  box-shadow:         3px 3px 5px 4px #ccc;
+}
+.page-content-wrapper img {
+	margin-left: 3em;
+}
+
+.body-text {
+	margin-left: 2em;
+	padding: 2em;
+}
+
+.social-media-icons {
+	font-size: 40px;
+	color: gray;
+}
+
+.social-media-icons li {
+	display: inline;
+	text-decoration: none;
+	margin-right: 3px;
+
+}

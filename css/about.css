@@ -1,0 +1,37 @@
+body {
+	background-color: #ffffed;
+}
+body p {
+	font-family: 'Raleway', sans-serif;
+}
+
+body a {
+	text-decoration: none;
+	color: #000;
+}
+
+body a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ec474b;
+}
+
+.logo {
+	font-size: 18px;
+	color: #ec474b;
+	font-weight: bold;
+	margin-left: 1em;
+	padding: 1em;
+	font-size: 16px;
+	font-weight: lighter;
+	
+}
+
+.logo img {
+	width: 170px;
+
+	}
+
+.logo-wrapper {
+	margin-left: 1em;
+}
