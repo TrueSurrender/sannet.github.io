@@ -200,3 +200,10 @@ footer{
 footer a,footer a:hover{
     color: #88C425;
 }
+
+.modal-backdrop{
+  opacity:0; transition:opacity .2s;
+}
+.modal-backdrop.in{
+  opacity:.7;
+}
