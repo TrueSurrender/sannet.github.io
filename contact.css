@@ -1,9 +1,12 @@
 
-body {
-	background-color: #ffffed;
-}
 body p {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Consolas', sans-serif;
+}
+
+
+h4 {
+	font-family: 'Consolas', sans-serif;
+	font-weight: bold;
 }
 
 body a {
@@ -18,10 +21,15 @@ body a:hover {
 	border-bottom: 4px solid #ec474b;
 }
 
-h2 { 
-	font-family:'Pacifico', cursive;
-	color:#ec474b;
- }
+
+.first-word {
+	font-size: 35px;
+	font-family: Zilla Slab, serif;
+	background-color: #ec474b;
+	color: #FFF;
+
+}
+
 
 .logo {
 	font-size: 16px;
@@ -30,13 +38,16 @@ h2 {
 	margin-left: 1em;
 	padding: 1em;
 	font-weight: lighter;
+	text-align: center;
 	
 }
 
-.logo img {
-	width: 170px;
-
-	}
+.logo h2 {
+	font-family: 'Zilla Slab', serif;
+	color: #282828;
+	font-size: 45px;
+	font-weight: bold;
+}
 
 .logo-wrapper {
 	margin-left: 1em;
@@ -44,13 +55,13 @@ h2 {
 
 .navbar-top {
 	text-decoration: none;
-	margin-top: 1.5em;
+	margin-top: 2em;
 	margin-right: 1em;
 	font-size: 16px;
-	font-weight: lighter;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Consolas', sans-serif;
 
 }
+
 .navbar-top li {
 	display: inline;
 	padding: 0.5em;
@@ -58,32 +69,67 @@ h2 {
 }
 
 .page-content-wrapper {
-	margin-top: 3em;
 	margin-right: 2em;
-	margin-left: 2em;
-	padding: 4em;
 	background-color: #fff;
-	  -moz-box-shadow:    3px 3px 5px 4px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 4px #ccc;
-  box-shadow:         3px 3px 5px 4px #ccc;
 }
-.page-content-wrapper img {
-	margin-left: 3em;
+
+
+.banner-top img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+
+}
+
+.banner-top {
+	margin-left: 4em;
 }
 
 .body-text {
-	margin-left: 2em;
-	padding: 2em;
+	padding: 1em;
+}
+
+.experience-list li {
+	text-decoration: none;
+	font-family: 'Consolas', sans-serif;
+}
+
+.experience-list ul {
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
 }
 
 .social-media-icons {
 	font-size: 40px;
 	color: gray;
+	margin-top: 2.4em;
 }
+
 
 .social-media-icons li {
 	display: inline;
 	text-decoration: none;
-	margin-right: 3px;
 
 }
+
+.social-media-icons a:hover {
+	border: none;
+}
+
+.social-media-icons a {
+		color: #3d3d3d;
+
+}
+
+.social-media-icons ul {
+	padding-left: 0;
+}
+
+
+.sub-title {
+	background-color: #ec474b;
+	color: #FFF;
+	font-size: 16px;
+}
+
