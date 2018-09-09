@@ -8,13 +8,13 @@ body p {
 
 body a {
 	text-decoration: none;
-	color: #F2B529;
+	color: #000;
 }
 
 body a:hover {
 	text-decoration: none;
 	font-weight: bold;
-	color: #ec474b;
+	color: #F2B529;
 	border-bottom: 4px solid #F2B529;
 
 }
