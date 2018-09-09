@@ -18,14 +18,14 @@ body a:hover {
 	text-decoration: none;
 	font-weight: bold;
 	color: #ec474b;
-	border-bottom: 4px solid #ec474b;
+	border-bottom: 4px solid #F2B529;
 }
 
 
 .first-word {
 	font-size: 35px;
 	font-family: Zilla Slab, serif;
-	background-color: #ec474b;
+	background-color: #F2B529;
 	color: #FFF;
 
 }
@@ -118,7 +118,7 @@ body a:hover {
 }
 
 .social-media-icons a {
-		color: #3d3d3d;
+		color: #F2B529;
 
 }
 
@@ -128,7 +128,7 @@ body a:hover {
 
 
 .sub-title {
-	background-color: #ec474b;
+	background-color: #F2B529;
 	color: #FFF;
 	font-size: 16px;
 }

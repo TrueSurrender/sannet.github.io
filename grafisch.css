@@ -15,7 +15,7 @@ body a:hover {
 	text-decoration: none;
 	font-weight: bold;
 	color: #ec474b;
-	border-bottom: 4px solid #ec474b;
+	border-bottom: 4px solid #F2B529;
 
 }
 
@@ -86,7 +86,7 @@ img:hover {
 }
 
 .sub-title {
-	background-color: #ec474b;
+	background-color: #F2B529;
 	color: #FFF;
 	font-size: 16px;
 }
