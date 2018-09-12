@@ -72,7 +72,7 @@
 										<div class='col-md-6'>
 											<div class="form-group">
 										    <label for="exampleInputEmail1"><span class="required">*</span> E-mail adres</label>
-										    <input type="email" class="form-control" id="exampleInputEmail1" rows= "8" aria-describedby="emailHelp" placeholder="Vul hier uw e-mail adres in.">
+										    <input type="email" name="email" class="form-control" id="exampleInputEmail1" rows= "8" aria-describedby="emailHelp" placeholder="Vul hier uw e-mail adres in.">
 										    <small id="emailHelp" class="form-text text-muted"></small>
 								  		</div>
 								  	</div>
@@ -81,7 +81,7 @@
 									  <div class='col-md-6'>
 								  		<div class="form-group">
 										    <label for="exampleTextarea"><span class="required">*</span> Bericht</label>
-										    <textarea class="form-control" id="exampleTextarea" rows=""></textarea>
+										    <textarea class="form-control" name="message" id="exampleTextarea" rows=""></textarea>
 										    <small style="font-weight: bold;">* Zijn verplichte velden</small>
 										  </div>
 									  </div>
@@ -96,3 +96,11 @@
 			</div>
 	</body>
 </html>
+	<script>
+	$.ajax({
+	    url: "https://formspree.io/sannetbodewes@gmail.com", 
+	    method: "POST",
+	    data: {message: "hallo!"},
+	    dataType: "json"
+	});
+</script>
