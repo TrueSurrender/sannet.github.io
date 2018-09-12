@@ -7,25 +7,32 @@ body p {
 h4 {
 	font-family: 'Consolas', sans-serif;
 	font-weight: bold;
+	font-size: 1.5em;
+	color: #ce940e;
+}
+
+h2 {
+	font-family: 'Zilla Slab', serif;
+	font-weight: bold;
 }
 
 body a {
 	text-decoration: none;
-	color: #000;
+	color: #3d3d3d;
 }
 
 body a:hover {
 	text-decoration: none;
 	font-weight: bold;
-	color: #F2B529;
-	border-bottom: 4px solid #F2B529;
+	color: #f2b529;
+	border-bottom: 4px solid #f2b529;
 }
 
 
-.first-word {
+.highlight-title {
 	font-size: 35px;
 	font-family: Zilla Slab, serif;
-	background-color: #F2B529;
+	background-color: #f2b529;
 	color: #FFF;
 
 }
@@ -58,6 +65,7 @@ body a:hover {
 	margin-top: 2em;
 	margin-right: 1em;
 	font-size: 16px;
+	font-weight: bold;
 	font-family: 'Consolas', sans-serif;
 
 }
@@ -69,8 +77,8 @@ body a:hover {
 }
 
 .page-content-wrapper {
-	margin-right: 2em;
 	background-color: #fff;
+	margin: 2em;
 }
 
 
@@ -86,12 +94,12 @@ body a:hover {
 }
 
 .body-text {
-	padding: 1em;
+		max-width: 800px;
 }
-
 .experience-list li {
 	text-decoration: none;
 	font-family: 'Consolas', sans-serif;
+	font-weight: bold;
 }
 
 .experience-list ul {
@@ -118,7 +126,7 @@ body a:hover {
 }
 
 .social-media-icons a {
-		color: #F2B529;
+		color: #3d3d3d;
 
 }
 
@@ -128,8 +136,31 @@ body a:hover {
 
 
 .sub-title {
-	background-color: #F2B529;
+	background-color: #f2b529;
 	color: #FFF;
 	font-size: 16px;
 }
 
+#contact-form {
+	background-color: #f2f1dc;
+	padding: 1.2em;
+    border-radius: 8px;
+    max-width: 800px;
+    background: repeating-linear-gradient(
+	  45deg,
+	  #bcc1e0,
+	  #FFF 2px,
+	  #FFF 2px,
+	  #FFF 6px
+	);
+}
+
+.form-control:focus {
+	border-color: #8c9af2;
+}
+
+.required {
+	font-weight: bold;
+	font-size: 2.0em;
+	color: #354193;
+}
