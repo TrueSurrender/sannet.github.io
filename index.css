@@ -74,12 +74,7 @@ body a:hover {
 	font-size: 16px;
 }
 
-.border-top-color {
-	color: red !important;
-	border-color: red !important;
-}
-
-.border-right-color {
-	color: red !important;
-	border-color: red !important;
-}
+ a:active { 
+ 	color: #F2B529;
+ 	font-weight: bold;
+ }

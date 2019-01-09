@@ -72,3 +72,8 @@ body a:hover {
 	padding-right: 5em;
 	padding-top: 2em;
 }
+
+ a:active { 
+ 	color: #F2B529;
+ 	font-weight: bold;
+ }

@@ -142,4 +142,8 @@ body a:hover {
 	  #FFF 6px
 	);
 }
-}
+
+ a:active { 
+ 	color: #F2B529;
+ 	font-weight: bold;
+ }
