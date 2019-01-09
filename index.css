@@ -19,7 +19,7 @@ body a:hover {
 
 }
 
-.logo {
+/*.logo {
 	font-size: 16px;
 	color: #ec474b;
 	font-weight: bold;
@@ -28,15 +28,20 @@ body a:hover {
 	font-weight: lighter;
 	text-align: center;
 	
-}
+}*//*
 
 .logo h2 {
 	font-family: 'Amatic SC', cursive;
 	color: #282828;
 	font-size: 50px;
 	font-weight: bold;
-}
+}*/
 
+.logo-pic {
+	width: 80px;
+	height: 80px;
+
+}
 
 .navbar-top {
 	text-decoration: none;
