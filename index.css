@@ -73,7 +73,7 @@ body a:hover {
 
 }
 
-img:hover {
+.container-body img:hover {
 	transform: scale(1.4);
 }
 
