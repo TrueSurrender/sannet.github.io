@@ -73,3 +73,13 @@ body a:hover {
 	color: #FFF;
 	font-size: 16px;
 }
+
+.border-top-color {
+	color: red;
+	border-color: red;
+}
+
+.border-right-color {
+	color: red;
+	border-color: red;
+}
