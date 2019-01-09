@@ -13,28 +13,16 @@ body a {
 
 body a:hover {
 	text-decoration: none;
-	font-weight: bold;
 	color: #F2B529;
 	border-bottom: 4px solid #F2B529;
 
 }
 
-.logo {
-	font-size: 16px;
-	color: #ec474b;
-	font-weight: bold;
-	margin-left: 1em;
-	padding: 1em;
-	font-weight: lighter;
-	text-align: center;
-	
-}
+.logo-pic img {
+	width: 120px !important;
+	height: 120px !important;
+	margin-left: 20px;
 
-.logo h2 {
-	font-family: 'Amatic SC', cursive;
-	color: #282828;
-	font-size:50px;
-	font-weight: bold;
 }
 
 
@@ -43,7 +31,6 @@ body a:hover {
 	font-size: 16px;
 	font-weight: lighter;
 	font-family: 'Consolas', sans-serif;
-	font-weight: bold;
 	margin-top: 2em;
 
 }
@@ -67,7 +54,7 @@ body a:hover {
 
 }
 
-img:hover {
+.container-content img:hover {
 	transform: scale(1.4);
 }
 
@@ -84,10 +71,4 @@ img:hover {
 	padding-left: 5em;
 	padding-right: 5em;
 	padding-top: 2em;
-}
-
-.sub-title {
-	background-color: #F2B529;
-	color: #FFF;
-	font-size: 16px;
 }

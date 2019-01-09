@@ -21,7 +21,7 @@ body a:hover {
 .logo-pic img {
 	width: 120px !important;
 	height: 120px !important;
-	padding: 20px;
+	margin-left: 20px;
 
 }
 
