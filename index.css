@@ -19,24 +19,6 @@ body a:hover {
 
 }
 
-/*.logo {
-	font-size: 16px;
-	color: #ec474b;
-	font-weight: bold;
-	margin-left: 1em;
-	padding: 1em;
-	font-weight: lighter;
-	text-align: center;
-	
-}*//*
-
-.logo h2 {
-	font-family: 'Amatic SC', cursive;
-	color: #282828;
-	font-size: 50px;
-	font-weight: bold;
-}*/
-
 .logo-pic img {
 	width: 120px !important;
 	height: 120px !important;
