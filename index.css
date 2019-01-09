@@ -75,11 +75,11 @@ body a:hover {
 }
 
 .border-top-color {
-	color: red;
-	border-color: red;
+	color: red !important;
+	border-color: red !important;
 }
 
 .border-right-color {
-	color: red;
-	border-color: red;
+	color: red !important;
+	border-color: red !important;
 }
