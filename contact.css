@@ -22,7 +22,6 @@ body a {
 
 body a:hover {
 	text-decoration: none;
-	font-weight: bold;
 	color: #f2b529;
 	border-bottom: 4px solid #f2b529;
 }
@@ -36,35 +35,19 @@ body a:hover {
 
 }
 
+.logo-pic img {
+	width: 120px !important;
+	height: 120px !important;
+	margin-left: 20px;
 
-.logo {
-	font-size: 16px;
-	color: #ec474b;
-	font-weight: bold;
-	margin-left: 1em;
-	padding: 1em;
-	font-weight: lighter;
-	text-align: center;
-	
 }
 
-.logo h2 {
-	font-family: 'Amatic SC', cursive;
-	color: #282828;
-	font-size: 50px;
-	font-weight: bold;
-}
-
-.logo-wrapper {
-	margin-left: 1em;
-}
 
 .navbar-top {
 	text-decoration: none;
 	margin-top: 2em;
 	margin-right: 1em;
 	font-size: 16px;
-	font-weight: bold;
 	font-family: 'Consolas', sans-serif;
 
 }
@@ -101,11 +84,6 @@ body a:hover {
 	font-weight: bold;
 }
 
-.experience-list ul {
-	text-decoration: none;
-	list-style: none;
-	padding: 0;
-}
 
 .social-media-icons {
 	font-size: 40px;
