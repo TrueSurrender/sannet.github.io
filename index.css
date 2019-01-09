@@ -13,7 +13,6 @@ body a {
 
 body a:hover {
 	text-decoration: none;
-	font-weight: bold;
 	color: #F2B529;
 	border-bottom: 4px solid #F2B529;
 
@@ -22,6 +21,7 @@ body a:hover {
 .logo-pic img {
 	width: 120px !important;
 	height: 120px !important;
+	padding: 20px;
 
 }
 
@@ -31,8 +31,6 @@ body a:hover {
 	font-size: 16px;
 	font-weight: lighter;
 	font-family: 'Consolas', sans-serif;
-	font-weight: bold;
-
 
 }
 
