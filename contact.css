@@ -35,7 +35,7 @@ body a:hover {
 
 .highlight-title {
 	font-size: 35px;
-	font-family: Zilla Slab, serif, Helvetica, sans-serif;
+	font-family: Zilla Slab, serif, Arial, sans-serif;
 	color: #f2b529;
 
 }
@@ -120,15 +120,8 @@ body a:hover {
 	border-color: #8c9af2;
 }
 
-.required {
-	font-weight: bold;
-	font-size: 2.0em;
-	color: #354193;
-}
-
 .btn-primary {
 	background-color: #354193 !important;
-
 }
 
 .adress-block {
