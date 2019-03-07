@@ -6,7 +6,7 @@ body {
 }
 
 body p {
-	font-family: 'Consolas', sans-serif;
+	font-family: 'Consolas', sans-serif, Helvetica, sans-serif;
 }
 
 
@@ -35,7 +35,7 @@ body a:hover {
 
 .highlight-title {
 	font-size: 35px;
-	font-family: Zilla Slab, serif;
+	font-family: Zilla Slab, serif, Helvetica, sans-serif;
 	color: #f2b529;
 
 }
@@ -78,12 +78,7 @@ body a:hover {
 }
 
 .body-text {
-		max-width: 800px;
-}
-.experience-list li {
-	text-decoration: none;
-	font-family: 'Consolas', sans-serif;
-	font-weight: bold;
+	max-width: 800px;
 }
 
 
@@ -105,7 +100,7 @@ body a:hover {
 }
 
 .social-media-icons a {
-		color: #3d3d3d;
+	color: #3d3d3d;
 
 }
 
