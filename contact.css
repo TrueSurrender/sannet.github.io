@@ -6,7 +6,7 @@ body {
 }
 
 body p {
-	font-family: 'Consolas', sans-serif, Helvetica, sans-serif;
+	font-family: 'Consolas', sans-serif, 'Tahoma', sans-serif;
 }
 
 
@@ -35,9 +35,8 @@ body a:hover {
 
 .highlight-title {
 	font-size: 35px;
-	font-family: Zilla Slab, serif, Arial, sans-serif;
+	font-family: 'Zilla Slab', serif, 'Tahoma', sans-serif;
 	color: #f2b529;
-
 }
 
 .logo-pic img {
