@@ -47,6 +47,9 @@ body a:hover {
 
 }
 
+.btn-custom {
+	background-color: #f2b529 !important;
+}
 
 .navbar-top {
 	text-decoration: none;
