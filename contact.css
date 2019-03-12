@@ -35,7 +35,7 @@ body a:hover {
 
 .highlight-title {
 	font-size: 35px;
-	font-family: 'Zilla Slab', serif, 'Tahoma', sans-serif;
+	font-family: 'Slabo 27px', serif, 'Tahoma', sans-serif;
 	color: #f2b529;
 }
 
@@ -49,6 +49,13 @@ body a:hover {
 .btn-custom {
 	background-color: #f2b529 !important;
 	color: #FFF;
+}
+
+.btn-custom:active {
+	border-top: 10px;
+	box-shadow: 0 9px #b8840d;
+	cursor: pointer;
+	transform: translateY(4px);
 }
 
 .navbar-top {
