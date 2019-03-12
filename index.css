@@ -22,7 +22,7 @@ body a:hover {
 }
 
 .logo-pic img {
-	height: 120px !important;
+	width: 400px !important;
 	margin-left: 20px;
 	margin-top: 20px;
 
