@@ -8,6 +8,7 @@ body {
 
 body p {
 	font-family: 'News Cycle', sans-serif, 'Tahoma', sans-serif;
+	font-size: 1.2em;
 }
 
 
@@ -30,7 +31,7 @@ body a {
 body a:hover {
 	text-decoration: none;
 	color: #f2b529;
-	border-bottom: 4px solid #f2b529;
+	font-weight: bold;
 }
 
 
@@ -41,11 +42,11 @@ body a:hover {
 }
 
 .logo-pic img {
-	width: 120px;
+	width: 120px !important;
 	margin-left: 50px;
 	margin-top: 20px;
-}
 
+}
 .btn-custom {
 	background-color: #f2b529 !important;
 	color: #FFF;
@@ -77,8 +78,19 @@ body a:hover {
 }
 
 
+.banner-top img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+
+}
+
 .body-text {
 	max-width: 800px;
+}
+
+.container-wrapper {
+	margin-top: 100px;
 }
 
 
