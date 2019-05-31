@@ -41,10 +41,9 @@ body a:hover {
 }
 
 .logo-pic img {
-	width: 120px !important;
-	margin-left: 20px;
+	width: 150px !important;
+	margin-left: 50px;
 	margin-top: 20px;
-
 }
 
 .btn-custom {
@@ -77,13 +76,6 @@ body a:hover {
 	margin: 2em;
 }
 
-
-.banner-top img {
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-
-}
 
 .body-text {
 	max-width: 800px;
