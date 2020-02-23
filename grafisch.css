@@ -1,7 +1,12 @@
 
+* {
+	font-family: 'Anonymous Pro' ;
+}
+
 body {
 	background-color: #FFF;
 	height: 100%;
+	padding: 20px;
 }
 
 body p {
@@ -10,20 +15,17 @@ body p {
 
 body a {
 	text-decoration: none;
-	color: #000;
+	color: #999;
+
 }
 
 body a:hover {
 	text-decoration: none;
-	color: #F2B529;
-	font-weight: bold;
-
+	color: #f68060;
 }
 
 .logo-pic img {
-	width: 200px !important;
-	margin-left: 20px;
-	margin-top: 20px;
+	width: 100px !important;
 
 }
 
@@ -32,7 +34,9 @@ body a:hover {
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: lighter;
-	margin-top: 2em;
+	float:right;
+	margin-top: 50px;
+	color: #999;
 
 }
 
@@ -61,7 +65,7 @@ body a:hover {
 }
 
 .container-content img:hover {
-	transform: scale(1.4);
+	transform: scale(1.1);
 }
 
 .no-padding {
@@ -88,11 +92,6 @@ body a:hover {
   box-sizing: border-box;
 }
 
-body {
-  padding: 20px;
-  font-family: Arial;
-}
-
 /* Center website */
 .main {
   max-width: 1000px;
@@ -104,20 +103,9 @@ h1 {
   word-break: break-all;
 }
 
-.row {
-  margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-  padding: 2px;
-}
-
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
 }
 
 /* Clear floats after rows */
