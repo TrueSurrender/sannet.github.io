@@ -140,6 +140,7 @@ h1 {
 
 .contact-image img {
 	padding-top: 2em;
+	width: 140px;
 }
 
 .introtext {
@@ -150,8 +151,8 @@ h1 {
 
 #gray-space {
 	width: 1200px;
-	height: 250px;
-	max-width: 1200px;
+	max-height: 60%;
+	max-width: 90%;
 	background-color: #edeff2;
 	border-radius: 8px;
 	padding: 35px;
